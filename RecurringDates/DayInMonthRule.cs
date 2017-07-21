@@ -1,15 +1,15 @@
 using System;
-using System.Runtime.Serialization;
+
 using RecurringDates.Helpers;
 
 namespace RecurringDates
 {
-    [DataContract]
+    
     public class DayInMonthRule : BaseRule
     {
-        [DataMember]
+        
         public int DayInMonth { get; private set; }
-        [DataMember]
+        
         public Month Month { get; private set; }
 
         public DayInMonthRule(int dayInMonth, Month month)

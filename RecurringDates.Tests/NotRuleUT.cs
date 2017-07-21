@@ -2,7 +2,7 @@ using System;
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace RecurringDates.UnitTests
+namespace RecurringDates.Tests
 {
     public class NotRuleUT<T> : ProjectedRuleTestFixture<T> where T : IRuleProcessor, new()
     {

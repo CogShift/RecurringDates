@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Serialization;
+
 
 namespace RecurringDates
 {
-    [DataContract]
+    
     public class StartingAtDateRule : UnaryRule, IEnumerableRule
     {
-        [DataMember]
+        
         public DateTime StartDate { get; private set; }
 
         internal StartingAtDateRule(DateTime startDate)

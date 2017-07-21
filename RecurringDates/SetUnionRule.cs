@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Serialization;
+
 using RecurringDates.Helpers;
 
 namespace RecurringDates
@@ -20,7 +20,7 @@ namespace RecurringDates
         {
             return Rules.StringJoin(" or ", "(", ")");
         }
-        [DataMember]
+        
         public IEnumerable<IRule> Rules { get; set; }
     }
 

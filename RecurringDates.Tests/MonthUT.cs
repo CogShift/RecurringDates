@@ -2,7 +2,7 @@
 using FluentAssertions;
 using NUnit.Framework;
 
-namespace RecurringDates.UnitTests
+namespace RecurringDates.Tests
 {
     [TestFixture]
     public class MonthUT

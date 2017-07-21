@@ -1,4 +1,4 @@
-namespace RecurringDates.UnitTests
+namespace RecurringDates.Tests
 {
     class IdentityProcessor : IRuleProcessor
     {

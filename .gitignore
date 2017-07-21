@@ -3,3 +3,6 @@
 */obj/*
 packages/*
 *.user
+*.ncrunchproject
+_NCrunch_RecurringDates
+*.ncrunchsolution

@@ -1,16 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Serialization;
+
 
 namespace RecurringDates
 {
-    [DataContract]
+    
     public class BetweenDatesRule : UnaryRule, IEnumerableRule
     {
-        [DataMember]
+        
         public DateTime StartDate { get; private set; }
-        [DataMember]
+        
         public DateTime EndDate { get; private set; }
 
         public BetweenDatesRule(DateTime startDate, DateTime endDate)

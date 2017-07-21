@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using RecurringDates.Helpers;
 
-namespace RecurringDates.UnitTests.Helpers
+namespace RecurringDates.Tests.Helpers
 {
     [TestFixture]
     public class NumberHelpersUT

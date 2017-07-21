@@ -1,9 +1,8 @@
 using System;
 using FluentAssertions;
 using NUnit.Framework;
-using RecurringDates.UnitTests.Serialization;
 
-namespace RecurringDates.UnitTests
+namespace RecurringDates.Tests
 {
     /// <summary>
     /// Base test fixture class that supports testing a rule against a date. 
@@ -12,7 +11,6 @@ namespace RecurringDates.UnitTests
     /// </summary>
     /// <typeparam name="T">a type that implements IRuleProcessor</typeparam>
     [TestFixture(typeof(IdentityProcessor))]
-    [TestFixture(typeof(SerializeDeserializeProcessor))]
     public abstract class ProjectedRuleTestFixture<T> :IRuleProcessor
         where T: IRuleProcessor, new()
     {

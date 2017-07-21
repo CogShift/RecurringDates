@@ -3,7 +3,7 @@ using FluentAssertions;
 using NSubstitute;
 using NUnit.Framework;
 
-namespace RecurringDates.UnitTests
+namespace RecurringDates.Tests
 {
     public class SetDifferenceRuleUT<T> : ProjectedRuleTestFixture<T> where T : IRuleProcessor, new()
     {

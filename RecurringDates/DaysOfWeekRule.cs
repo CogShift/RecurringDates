@@ -1,18 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Serialization;
 using RecurringDates.Helpers;
 
 namespace RecurringDates
 {
-    [DataContract]
     public class DaysOfWeekRule : BaseRule, IHasAlternateRules
     {
-        [DataMember]
         private readonly SetUnionRule _rule;
 
-        [DataMember]
         public IEnumerable<DayOfWeek> DaysOfWeek { get; private set; }
 
         public DaysOfWeekRule(params DayOfWeek[] daysOfWeek)

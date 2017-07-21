@@ -1,4 +1,4 @@
-﻿namespace RecurringDates.UnitTests
+﻿namespace RecurringDates.Tests
 {
     /// <summary>
     /// Given a rule, return another rule.
